@@ -1,0 +1,71 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+.total{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.loginForm{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    width: 50%;
+    height: 650px;
+    background-color: #1e272e;
+}
+
+.loginForm h1{
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.input{
+    width: 400px;
+    padding: 10px;
+    text-decoration:none;
+    background-color: #344953;
+    margin: 15px;
+    border-radius: 10px;
+    color: white;
+}
+
+.inputBotao{
+    text-decoration: none;
+    width: 200px;
+    padding: 8px;
+    background-color: #485460;
+    list-style: none;
+    color: white;
+    list-style-type: none;
+    border-radius: 10px;
+    transition: 0,6s;
+}
+
+.inputBotao:hover{
+    cursor: pointer;
+    background-color: #808e9b;
+}
+
+.imagem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 657px;
+    background-color: black;
+}
+
+.logo img{
+    width: 600px;
+    height: 600px;
+}
